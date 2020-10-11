@@ -17,7 +17,7 @@ public class WriteLock implements Lock {
     public void lock() {
         try {
             synchronized (guard) {
-                if (guard.getIsWriter() || guard.getReaders() != 0) {
+                while (guard.getIsWriter() || guard.getReaders() != 0) {
                     guard.wait();
                 }
                 guard.setIsWriter(true);
