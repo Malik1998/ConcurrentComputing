@@ -1,0 +1,16 @@
+Main.measureName        4             1  avgt   10  0,004 ± 0,001   s/op
+Main.measureName        4             5  avgt   10  0,004 ± 0,002   s/op
+Main.measureName        4            10  avgt   10  0,004 ± 0,001   s/op
+Main.measureName        4            20  avgt   10  0,004 ± 0,002   s/op
+Main.measureName       10             1  avgt   10  0,012 ± 0,002   s/op
+Main.measureName       10             5  avgt   10  0,012 ± 0,002   s/op
+Main.measureName       10            10  avgt   10  0,011 ± 0,005   s/op
+Main.measureName       10            20  avgt   10  0,013 ± 0,001   s/op
+Main.measureName       20             1  avgt   10  0,025 ± 0,004   s/op
+Main.measureName       20             5  avgt   10  0,022 ± 0,005   s/op
+Main.measureName       20            10  avgt   10  0,020 ± 0,008   s/op
+Main.measureName       20            20  avgt   10  0,025 ± 0,010   s/op
+Main.measureName       50             1  avgt   10  0,056 ± 0,009   s/op
+Main.measureName       50             5  avgt   10  0,057 ± 0,005   s/op
+Main.measureName       50            10  avgt   10  0,063 ± 0,005   s/op
+Main.measureName       50            20  avgt   10  0,083 ± 0,006   s/op

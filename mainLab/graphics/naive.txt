@@ -1,0 +1,25 @@
+Benchmark         (count)  (maxQueries)  Mode  Cnt   Score    Error  Units
+Main.measureName        4             1  avgt   10   1,868 ±  1,337   s/op
+Main.measureName        4             5  avgt   10   1,694 ±  0,688   s/op
+Main.measureName        4            10  avgt   10   1,942 ±  1,767   s/op
+Main.measureName        4            20  avgt   10   1,980 ±  1,802   s/op
+Main.measureName        4           100  avgt   10   1,553 ±  0,789   s/op
+Main.measureName        4           200  avgt   10   1,818 ±  0,816   s/op
+Main.measureName       10             1  avgt   10   3,059 ±  1,699   s/op
+Main.measureName       10             5  avgt   10   2,968 ±  2,629   s/op
+Main.measureName       10            10  avgt   10   3,540 ±  2,000   s/op
+Main.measureName       10            20  avgt   10   4,238 ±  2,907   s/op
+Main.measureName       10           100  avgt   10   4,188 ±  2,291   s/op
+Main.measureName       10           200  avgt   10   4,851 ±  1,666   s/op
+Main.measureName       20             1  avgt   10   7,360 ±  2,357   s/op
+Main.measureName       20             5  avgt   10   8,797 ±  2,665   s/op
+Main.measureName       20            10  avgt   10   8,087 ±  3,261   s/op
+Main.measureName       20            20  avgt   10   8,675 ±  3,820   s/op
+Main.measureName       20           100  avgt   10  11,173 ±  6,397   s/op
+Main.measureName       20           200  avgt   10  11,862 ±  6,608   s/op
+Main.measureName       50             1  avgt   10  44,575 ± 19,052   s/op
+Main.measureName       50             5  avgt   10  46,885 ± 15,025   s/op
+Main.measureName       50            10  avgt   10  48,285 ± 19,777   s/op
+Main.measureName       50            20  avgt   10  51,332 ± 15,111   s/op
+Main.measureName       50           100  avgt   10  63,295 ± 27,578   s/op
+Main.measureName       50           200  avgt   10  52,787 ± 24,024   s/op

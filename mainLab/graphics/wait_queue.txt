@@ -1,0 +1,17 @@
+Benchmark         (count)  (maxQueries)  Mode  Cnt  Score    Error  Units
+Main.measureName        4             1  avgt   10  0,003 ±  0,002   s/op
+Main.measureName        4             5  avgt   10  0,003 ±  0,001   s/op
+Main.measureName        4            10  avgt   10  0,003 ±  0,001   s/op
+Main.measureName        4            20  avgt   10  0,003 ±  0,001   s/op
+Main.measureName       10             1  avgt   10  0,007 ±  0,001   s/op
+Main.measureName       10             5  avgt   10  0,007 ±  0,001   s/op
+Main.measureName       10            10  avgt   10  0,007 ±  0,001   s/op
+Main.measureName       10            20  avgt   10  0,007 ±  0,001   s/op
+Main.measureName       20             1  avgt   10  0,017 ±  0,010   s/op
+Main.measureName       20             5  avgt   10  0,014 ±  0,002   s/op
+Main.measureName       20            10  avgt   10  0,028 ±  0,031   s/op
+Main.measureName       20            20  avgt   10  0,015 ±  0,002   s/op
+Main.measureName       50             1  avgt   10  0,037 ±  0,006   s/op
+Main.measureName       50             5  avgt   10  0,035 ±  0,008   s/op
+Main.measureName       50            10  avgt   10  0,035 ±  0,007   s/op
+Main.measureName       50            20  avgt   10  0,036 ±  0,004   s/op
