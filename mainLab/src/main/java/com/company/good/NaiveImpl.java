@@ -12,12 +12,12 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class NaiveImpl {
 
-    public NaiveImpl(int count, LinkedList<Packet>[] packets, AtomicInteger sum, int maxSum ) {
+    public NaiveImpl(int count, LinkedList<Packet>[] packets, AtomicInteger sum, int maxSum, long[] times ) {
         this.count = count;
         this.chain = new NaiveChainImpl[count];
 
         for(int i = 0; i < count; i++) {
-            chain[i] = new NaiveChainImpl(i, this, packets, sum, maxSum);
+            chain[i] = new NaiveChainImpl(i, this, packets, sum, maxSum, times);
         }
     }
 
