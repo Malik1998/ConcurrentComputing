@@ -10,10 +10,8 @@ VARIABLES flag_locked, who_is_in, who_is_out, who_is_in_while, who_is_after_whil
 vars == <<flag_locked, who_is_in, who_is_out, who_is_in_while, who_is_after_while>> 
 
 (***************************************************************************)
-TypeOK == \/ (who_is_in \subseteq { first }) 
-          \/ (who_is_in \subseteq { second })
-          \/ (who_is_in = {})
-                          
+TypeOK == (Cardinality(who_is_in) <= 1) 
+
 Init == /\ who_is_in = { }
         /\ flag_locked = "F"
         /\ who_is_in_while = {first, second}
@@ -145,6 +143,6 @@ Next == \E person \in {first, second} :
 (***************************************************************************)                  
 =============================================================================
 \* Modification History
-\* Last modified Sat Jan 09 16:49:39 MSK 2021 by mi
+\* Last modified Sat Jan 09 23:48:54 MSK 2021 by mi
 \* Last modified Sat Dec 22 14:17:18 PST 2018 by lamport
 \* Created Thu Dec 20 11:44:08 PST 2018 by lamport
