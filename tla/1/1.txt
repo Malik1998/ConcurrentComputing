@@ -1,0 +1,74 @@
+<<
+[
+ _TEAction |-> [
+   position |-> 1,
+   name |-> "Initial predicate",
+   location |-> "Unknown location"
+ ],
+ flag_locked |-> "F",
+ who_is_after_while |-> {},
+ who_is_in |-> {},
+ who_is_in_while |-> {1, 2},
+ who_is_out |-> {}
+],
+[
+ _TEAction |-> [
+   position |-> 2,
+   name |-> "GoInWhile",
+   location |-> "line 24, col 22 to line 35, col 57 of module bool"
+ ],
+ flag_locked |-> "F",
+ who_is_after_while |-> {2},
+ who_is_in |-> {},
+ who_is_in_while |-> {1},
+ who_is_out |-> {}
+],
+[
+ _TEAction |-> [
+   position |-> 3,
+   name |-> "GoInWhile",
+   location |-> "line 24, col 22 to line 35, col 57 of module bool"
+ ],
+ flag_locked |-> "F",
+ who_is_after_while |-> {1, 2},
+ who_is_in |-> {},
+ who_is_in_while |-> {},
+ who_is_out |-> {}
+],
+[
+ _TEAction |-> [
+   position |-> 4,
+   name |-> "GoAfterWhile1",
+   location |-> "line 38, col 26 to line 49, col 57 of module bool"
+ ],
+ flag_locked |-> "T",
+ who_is_after_while |-> {1, 2},
+ who_is_in |-> {},
+ who_is_in_while |-> {},
+ who_is_out |-> {}
+],
+[
+ _TEAction |-> [
+   position |-> 5,
+   name |-> "GoAfterWhile2",
+   location |-> "line 51, col 26 to line 62, col 57 of module bool"
+ ],
+ flag_locked |-> "T",
+ who_is_after_while |-> {2},
+ who_is_in |-> {1},
+ who_is_in_while |-> {},
+ who_is_out |-> {}
+],
+[
+ _TEAction |-> [
+   position |-> 6,
+   name |-> "GoAfterWhile2",
+   location |-> "line 51, col 26 to line 62, col 57 of module bool"
+ ],
+ flag_locked |-> "T",
+ who_is_after_while |-> {},
+ who_is_in |-> {1, 2},
+ who_is_in_while |-> {},
+ who_is_out |-> {}
+]
+>>
